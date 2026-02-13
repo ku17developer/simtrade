@@ -31,6 +31,19 @@
       <version>${org.springframework-version}</version>
     </dependency>
 
+    <!-- Setter, Getter, 기본생성자 이용하기! -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
+    </dependency>
+
+    <!--web mvc 추가하기-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>${org.springframework-version}</version>
+    </dependency>
 
   </dependencies>
 
